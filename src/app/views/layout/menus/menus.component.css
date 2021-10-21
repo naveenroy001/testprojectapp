@@ -1,0 +1,20 @@
+.dropdown-menu.active {
+    display: block !important;
+}
+
+.inner-dropdown .arrow {
+    margin-top: -6px;
+}
+
+.hr-line {
+    width: 150px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+@media only screen and (max-width: 992px) {
+    .inner-dropdown .arrow {
+        margin-top: -28px !important;
+    }
+}

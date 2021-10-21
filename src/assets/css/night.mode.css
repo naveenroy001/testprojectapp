@@ -1,0 +1,113 @@
+/* Black Theme */
+
+body {
+    background-color: #2A2D2E;
+}
+
+.header {
+    background: rgba(28, 28, 28, 1);
+    background: -moz-linear-gradient(left, rgba(28, 28, 28, 1) 0%, rgba(87, 87, 87, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28, 28, 28, 1)), color-stop(100%, rgba(87, 87, 87, 1)));
+    background: -webkit-linear-gradient(left, rgba(28, 28, 28, 1) 0%, rgba(87, 87, 87, 1) 100%);
+    background: -o-linear-gradient(left, rgba(28, 28, 28, 1) 0%, rgba(87, 87, 87, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(28, 28, 28, 1) 0%, rgba(87, 87, 87, 1) 100%);
+    background: linear-gradient(to right, rgba(28, 28, 28, 1) 0%, rgba(87, 87, 87, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#575757', GradientType=1);
+}
+
+p,
+span,
+* {
+    color: #b6b6b6;
+}
+
+.side-nav {
+    background-color: #373a3b;
+}
+
+.page-title h4 {
+    color: #F7F6FE;
+}
+
+.side-nav .side-nav-inner .side-nav-menu,
+.side-nav-logo {
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.card {
+    background-color: #454849;
+    border: 1px solid #2A2D2E;
+}
+
+label {
+    color: #F0F0F0;
+}
+
+.form-control {
+    background-color: #373a3b;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.form-control:focus {
+    background-color: #2A2D2E;
+    color: #FFFFFF;
+}
+
+input.form-control::placeholder {
+    color: #9c9c9c;
+}
+
+.input-group-text.icon-right {
+    background-color: #373a3b;
+    border: 1px solid #000000;
+    border-left: 0;
+}
+
+.accordion .panel-default>.panel-heading {
+    background-color: #454849;
+    border: 1px solid #2A2D2E;
+    color: #F0F0F0;
+}
+
+.panel-title span,
+.card-title {
+    color: #F0F0F0;
+}
+
+.panel-body {
+    background-color: #454849;
+    border: 1px solid #2A2D2E;
+}
+
+table.dataTable thead tr {
+    background-color: #454849;
+    color: #F0F0F0;
+}
+
+table.dataTable thead th {
+    color: #F0F0F0;
+}
+
+table.dataTable tbody tr {
+    background-color: #373a3b;
+    color: #F0F0F0;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #454849;
+    color: #F0F0F0;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #444444;
+    color: #F0F0F0;
+}
+
+.card h4 {
+    color: #F0F0F0;
+}
+
+
+/* Black theme End */

@@ -1,0 +1,25 @@
+.payment {
+    max-width: 800px;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 0 auto 0;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+}
+
+.payment hr.hr-top {
+    margin-top: -2px;
+}
+
+.payment .control-label {
+    margin-top: 10px;
+}
+
+.payment .form-item {
+    background-color: #F6F7F7;
+    border: 1px solid #F0F0F0;
+    padding: 10px;
+}

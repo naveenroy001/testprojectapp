@@ -1,0 +1,9 @@
+@media only screen and (max-width: 992px) {
+    .copyright {
+        text-align: center;
+    }
+    .copyright .go-right {
+        display: block;
+        float: none;
+    }
+}

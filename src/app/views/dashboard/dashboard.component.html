@@ -1,0 +1,34 @@
+<div class="page-title">
+    <h4>Dashboard</h4>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><b>Target Performing Products</b></h4>
+                <select class="form-control float-right" style="width: 200px;margin-top: -40px;" [(ngModel)]="cityId" (change)="getDashboardCityCharts()">
+                    <option value="0">All Cities</option>
+                    <option *ngFor="let city of cities" value="{{ city?.id }}">{{ city?.name }}</option>
+                </select>
+            </div>
+            <div class="card-block">
+
+                <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType">
+                </canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><b>Top 5 Performing Products</b></h4>
+
+            </div>
+            <div class="card-block">
+                <h4 class="card-title"><b>Top 5 Performing Products</b></h4>
+                <google-chart [type]="chartType" [data]="chartData" style="width: 100%;height:320px" [options]="myOptions"></google-chart>
+            </div>
+        </div>
+    </div>
+
+</div>

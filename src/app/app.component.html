@@ -1,0 +1,22 @@
+<div *ngIf="!isLoggedIn">
+    <router-outlet></router-outlet>
+</div>
+
+<div *ngIf="isLoggedIn && (!isPrint)">
+    <app-layout></app-layout>
+
+    <!-- Content Wrapper START -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+
+</div>
+
+
+<div *ngIf="isLoggedIn && isPrint">
+    <router-outlet></router-outlet>
+</div>

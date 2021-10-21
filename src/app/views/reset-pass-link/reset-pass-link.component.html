@@ -1,0 +1,46 @@
+<div class="app" *ngIf="isLogin">
+    <div class="authentication">
+        <div class="sign-in-2">
+            <div class="container-fluid no-pdd-horizon bg" style="background-image: url('assets/images/login.jpg')">
+                <div class="container-fluid no-pdd-horizon bg">
+                    <div class="row">
+                        <div class="col-md-10 mr-auto ml-auto">
+                            <div class="row">
+                                <div class="mr-auto ml-auto full-height height-100 d-flex align-items-center set-width">
+                                    <div class="vertical-align full-height">
+                                        <div class="table-cell">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="pdd-horizon-30 pdd-vertical-30">
+                                                        <div class="mrg-btm-30">
+                                                            <img class="img-responsive mx-auto d-block" src="assets/images/logo/logo.png" alt="">
+                                                            <!-- <h2 class="inline-block pull-right no-mrg-vertical pdd-top-15">Login</h2> -->
+                                                        </div>
+                                                        <h4 class="mrg-btm-15 font-size-17 text-center">Reset Password</h4>
+                                                        <br>
+                                                        <div class="form-group">
+                                                            <label class="font-size-13 centercls">Enter Email Address</label>
+                                                            <input type="email" class="form-control" name="email" placeholder="Enter Email Address" [(ngModel)]="emailaddress">
+                                                        </div>
+
+
+                                                        <div class="mrg-top-20">
+                                                            <button class="btn btn-info width-100" (keyup.enter)="resetLink()" (click)="resetLink()">Send Reset Link</button>
+                                                        </div>
+                                                        <a routerLink="/login">Sign In</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <app-loader *ngIf="isLoad"></app-loader>

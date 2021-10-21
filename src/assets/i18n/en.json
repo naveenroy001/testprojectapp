@@ -1,0 +1,74 @@
+{
+    "menu.professionaltax": "Professional Tax",
+    "menu.professionaltax.createec": "Create EC",
+    "menu.estate": "Estate",
+    "menu.estate.4g.new4g": "Applying for Erection of New 4G-Tower",
+    "menu.estate.4g.estateInbox": "Inbox - Estate -4-G Tower",
+    "menu.estate.4g.deptInbox": "Inbox -Department-4-G Tower",
+    "4g.new4g.pageHeader": "APPLYING FOR ERECTION OF NEW 4G-TOWER",
+    "4g.new4g.pageSubheader": "Marked Fields are Mandatory.",
+    "4g.new4g.agencyName": "Agency Name",
+    "4g.new4g.agencyName.placeholder": "Name of Agency",
+    "4g.new4g.siteId": "Site ID",
+    "4g.new4g.siteId.placeholder": "Site ID",
+    "4g.new4g.locationAddress": "Location Address",
+    "4g.new4g.locationAddress.placeholder": "Enter Address Here..",
+    "4g.new4g.spaceRequired": "Space Required/Area",
+    "4g.new4g.spaceRequired.placeholder": "Space Required/Area",
+    "4g.new4g.latitude": "Latitude",
+    "4g.new4g.latitude.placeholder": "Latitude",
+    "4g.new4g.longitude": "Longitude",
+    "4g.new4g.longitude.placeholder": "Longitude",
+    "4g.new4g.height": "Height (in m)",
+    "4g.new4g.height.placeholder": "Height",
+    "4g.new4g.spaceTower": "Space Required for Tower (in sq.m)",
+    "4g.new4g.spaceTower.placeholder": "Space Required for Tower",
+    "4g.new4g.odu": "Space Required for ODU (Outdoor unit) (in sq.m)",
+
+    "4g.new4g.odu.placeholder": "Space Required for ODU",
+    "4g.new4g.comment": "Comments",
+    "4g.new4g.comment.placeholder": "Comments",
+    "4g.new4g.formSubheader": "Upload Supporting Documents",
+    "4g.new4g.stabilityCertificate": "Structure Stability Certificate",
+    "4g.new4g.sacfaUndertaking": "SACFA Undertaking",
+    "4g.new4g.googleImage": "Google Image (with Latitude/Longitude)",
+    "4g.new4g.photos": "Photos (min. 4 required)",
+    "4g.new4g.layout": "Layout Plan of Tower",
+    "4g.new4g.upFile": "Upload File",
+    "4g.new4g.oth": "Others documents",
+
+
+    "4g.new4.declaration": "I declare that the above information is true to my knowledge. I accept the terms and conditions of RMC for the above application.",
+    "4g.new4g.back": "Back",
+    "4g.new4g.reset": "Reset",
+    "4g.new4g.generate": "Generate Application Letter",
+    "4g.inbox.estatePageHeader": "INBOX-ESTATE-4G",
+    "4g.inbox.table.applicationId": "Application ID",
+    "4g.inbox.table.agencyName": "Agency Name",
+    "4g.inbox.table.siteId": "Site ID",
+    "4g.inbox.table.locationAddress": "Location Address",
+    "4g.inbox.table.height": "Height",
+    "4g.inbox.table.status": "Status",
+    "4g.inbox.table.action": "Action",
+    "4g.inbox.deptPageHeader": "DEPT-INBOX-4G",
+    "4g.new4g.submit": "Submit",
+    "4g.inbox.verifyauthorise": "Verify and Authorise",
+    "4g.inbox.query": "Query",
+    "menu.estate.4g.manage": "Manage - 4G Tower",
+    "menu.estate.4g.tpInbox": "Inbox – Town Planning Department Four G",
+
+
+    "menu.payment.type.master": "Payment Type Master",
+
+    "esate.tender.name": "Tender Number",
+
+
+    "module": "Module",
+    "payment.type": "Payment Type",
+    "createdOn": "Created On",
+    "action": "Action",
+    "fin.year": "Finacial Year"
+
+
+
+}

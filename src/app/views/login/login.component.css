@@ -1,0 +1,25 @@
+.card {
+    border: 0;
+}
+
+.set-width {
+    width: 400px;
+}
+
+.centercls {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        background-color: rgba(255, 255, 255, 0);
+        border: 0;
+        overflow: hidden;
+        box-shadow: none;
+    }
+    .table-cell {
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 100vh;
+        overflow: hidden;
+    }
+}
