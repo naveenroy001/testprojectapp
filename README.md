@@ -1,7 +1,7 @@
 # Test Project Front End
 Test Assignment Project 
 
-# Install Project Packages
+## Install Project Packages
 Use the package manager [npm](https://www.npmjs.com/) to install Packages.
 
 ```bash
