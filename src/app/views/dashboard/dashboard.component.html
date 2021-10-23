@@ -24,9 +24,16 @@
                 <h4 class="card-title"><b>Top 5 Performing Products</b></h4>
 
             </div>
-            <div class="card-block">
+            <div class="card-block" style="height:428px">
                 <h4 class="card-title"><b>Top 5 Performing Products</b></h4>
-                <google-chart [type]="chartType" [data]="chartData" style="width: 100%;height:320px" [options]="myOptions"></google-chart>
+                <div *ngIf="chartData.length > 0">
+                    <google-chart [type]="chartType" [data]="chartData" style="width: 100%;height:320px" [options]="myOptions"></google-chart>
+                </div>
+                <div *ngIf="chartData.length == 0" class="text-center">
+                    <span style="color: brown;">Date not found.</span>
+                </div>
+
+
             </div>
         </div>
     </div>

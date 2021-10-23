@@ -55,7 +55,9 @@ export class DashboardComponent implements OnInit {
   getDashboardCityCharts(){
     this.dashboard.getDashboardCityCharts(this.common.getUser().id,this.cityId).subscribe((data)=>{
       if(data.status){
-        this.setBarChartData(data.result);
+        //this.setBarChartData(data.result);
+        this.setBarChartData(data.result.bargraph);
+        this.setDonutChart(data.result.donut);
       }else{
         this.common.errorMessage(data.message);
       }
